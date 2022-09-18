@@ -1,0 +1,123 @@
+﻿html,body{
+    height:100%;
+    width:100%;
+    font-family:'poppins',sans-serif;
+    color: #222;
+
+}
+.navbar{
+    padding: 10px;
+}
+.navbar-nav li{
+    padding-right:20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner img{
+    height:400px;
+    width:100%;
+}
+.carousel-caption {
+    position: absolute;
+   
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size:50px;
+    text-align:center;
+    text-transform:uppercase;
+    text-shadow:1px 1px 10px #000;
+}
+.padding{
+    padding-bottom:2rem;
+    padding:30px;
+}
+
+.welcome hr{
+    border-top:2px solid #b4b4b4;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fa-globe{
+    color:cornflowerblue;
+}
+.fa-money{
+    color:forestgreen;
+}
+
+.fa-trophy{
+    color:yellow;
+}
+.fa-globe, .fa-trophy, .fa-money{
+    font-size: 4em;
+    margin:1rem;
+}
+.social a{
+font-size:4.5em;
+padding: 3rem;
+}
+
+.fa-facebook{
+color:blue;
+}
+.fa-twitter{
+    color:deepskyblue;
+}
+.fa-linkedin{
+    color:royalblue;
+}
+.fa-instagram{
+    color:palevioletred;
+}
+.fa-snapchat-ghost{
+    color:yellow;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover ,
+.fa-instagram:hover ,
+
+.fa-snapchat-ghost:hover {
+color:#d5d5d5;
+
+}
+
+footer {
+    background-color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light{
+    border-top:1px solid black;
+    width:75%;
+    margin-top:.8rem;
+    margin-bottom:1rem;
+}
+hr.light-0 {
+    border-top: 1px solid black;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.hv img:hover{
+    height:200px;
+    
+    
+    
+}
+.hv:hover {
+    font-size: 30px;
+}
+.hv img{
+    height:160px;
+}
+.clr{
+    background-color:#d5d5d5;
+    opacity:0.7 
+}

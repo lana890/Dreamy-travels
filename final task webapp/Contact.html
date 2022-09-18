@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+          rel="stylesheet" type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: url(image/back.jpg);
+            background-size: cover;
+        }
+
+        hr {
+            background: white;
+        }
+
+        .contact-form {
+            background: rgba(0,0,0, .6);
+            color: white;
+            margin-top: 100px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 3px grey;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+
+                <img src="img/logo.png" alt="logo" style="height:20%; width:20%" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="HtmlPage1.html"> Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="HtmlPage2.html">Touristic Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Pricing</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Contact.html">Contact us</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="clr">
+                    <img src="img/site 4.jpg" />
+                </div>
+                <div class="carousel-caption">
+                    <h1 class="display-1" id="txt">
+                    </h1>
+                    <br />
+                    <h3>
+                        <i class="fa fa-plane" style="font-size: 4.5em; color:white"></i>
+                    </h3>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="clr">
+                    <img src="img/site 3.jpg" />
+                </div>
+                <div class="carousel-caption">
+                    <h1 class="display-1">
+                        DREAMY TRAVELS
+                    </h1>
+                    <br />
+                    <h3>
+                        <i class="fa fa-plane" style="font-size: 4.5em; color:white"></i>
+                    </h3>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="clr">
+                    <img src="img/SITE 1.jpg" />
+                </div>
+                <div class="carousel-caption">
+                    <h1 class="display-1">
+                        DREAMY TRAVELS
+                    </h1>
+                    <br />
+                    <h3>
+                        <i class="fa fa-plane" style="font-size: 4.5em; color:white"></i>
+                    </h3>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <br />
+    <br />
+
+    <div>
+        <div class="container-fluid padding" style="padding:30px">
+            <div class="row welcome text-center">
+                <div class="col-12" style="        margin-top: 60px;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
+">
+                    <h1 class="display-4 ">Contact Us</h1>
+
+                </div>
+                <hr />
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container contact-form">
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <address>W-343 Coseis Meits UT</address>
+                <p>Email:- DreamyTravels@email.com</p>
+                <p>Phone:- 34563463434</p>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Massage</label>
+                    <textarea class="form-control" rows="7"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block">Send</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <br />
+    <hr class="light"/>
+    <!-- Connect-->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+
+            </div>
+            <div class="col-12 social padding">
+
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png" style="height:60px; width:60px" />
+                    <hr class="light" />
+                    <p>034-344-215</p>
+                    <p>lana.ammar890@gmail.com</p>
+                    <p>123 street name</p>
+                    <p>City,State,11111</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h5>Our Hours</h5>
+                    <hr class="light" />
+                    <p>Sunday: 9 am - 4 pm</p>
+                    <p>Monday: 9 am - 4 pm</p>
+                    <p>Tuesday: 9 am - 4 pm</p>
+                    <p>Wedensday: 9 am - 4 pm</p>
+                    <p>Thursday: 9 am - 2 pm</p>
+                    <p>Friday: Closed</p>
+
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h5>Service Area</h5>
+                    <hr class="light" />
+                    <p>City,State,11111</p>
+                    <p>City,State,11111</p>
+                    <p>City,State,11111</p>
+
+
+
+                </div>
+                <div class="col-12">
+                    <hr class="light-0" />
+                    <h5>&copy; DreamyTravels.com </h5>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        var txts = new Array();
+        txts.push("welcome to Dreamy Travels");
+        txts.push("look for sites to visit");
+        var i = 0;
+
+        function changeTxt() {
+            document.getElementById("txt").textContent = txts[(i = (i + 1) % txts.length)];
+
+        }
+        setInterval(changeTxt, 3000);
+    </script>
+</body>
+</html>
